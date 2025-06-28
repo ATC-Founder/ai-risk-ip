@@ -7,5 +7,7 @@ score:
 test:
 	pytest tests
 
+report: score
+
 all: generate score test
 
